@@ -1,0 +1,56 @@
+body {
+  background-color: #f5f5f5;
+}
+
+* {
+  margin: 0px;
+}
+
+.header {
+  height: 6vh;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-bar > li {
+  list-style-type: none;
+  width: 10vw;
+  height: 3vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.nav-bar > li > * {
+  text-decoration: none;
+  color: #222;
+}
+
+.logo-item {
+  margin-right: auto;
+}
+
+.logo {
+  height: 150%;
+  width: 75%;
+}
+
+.home {
+  background-image: url(./assets/image.png);
+  background-size: cover;
+  height: 94vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-text {
+  font-family: 'Raleway', sans-serif;
+  color: #f5f5f5;
+  font-size: 7em;
+}

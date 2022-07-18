@@ -1,0 +1,16 @@
+Dependencies
+/client/node_modules
+/client/.pnp
+/client/.pnp.js
+
+Testing
+
+client/coverage
+
+Production
+
+/client/build
+
+Misc
+
+/clientnpm-debug.log*
